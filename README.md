@@ -18,26 +18,24 @@ Distributed Ledger platform for issuing verified certifications ,LOR's very hand
 
 - Clone the repositiory :
 
-`git clone https://github.com/gittcoder/ResumeVerificationUsingBlockchain `
+`git clone https://github.com/gittcoder/Vendor-App `
 
-- Setup Local Blockchain :
-    - Run the following command to start a local blockchain
+- Setup Local Application:
+    - Run the following command to run api
+
+        `npm install --save`
     
-        `cd backend `
-
-        `npm run ganache`
-
-    - Initialize Smart contract (In a new terminal)
-
-        `cd backend `
-
-        `npm run contract-deploy`
-
-- Setup Backend / API
-    - Start express API
-
         `cd backend `
 
         `npm start`
-    
+
+    - Run React app
+
+        `npm install --save`
+
+        `cd client `
+
+        `npm start`
+
+
 
